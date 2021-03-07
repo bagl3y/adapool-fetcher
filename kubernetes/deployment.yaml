@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: adapool-stats
-        image: bagl3y/adapool-fetcher:latest
+        image: bagl3y/adapool-stats-fetcher:latest
         resources:
           limits:
             memory: "128Mi"
