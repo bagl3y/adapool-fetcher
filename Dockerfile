@@ -6,6 +6,7 @@ COPY --chown=1001:1001 getstats.sh /script
 COPY --chown=1001:1001 start.sh /script
 RUN chmod +x /script/start.sh
 RUN chmod +x /script/getstats.sh
+RUN chown -R 1001:1001 /script
 USER 1001
 EXPOSE 9100
 
